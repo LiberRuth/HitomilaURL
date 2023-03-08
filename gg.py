@@ -9,12 +9,8 @@ gg = {
 
 value1 = 1117  
 value2 = 1234  
-if gg['m'](value1) == 1:
-    b =  gg['b']
-    s =  gg['s']("01e1")
-    print(f"{b}{s}/{value1}/이미지명.*")
 
-# print(gg['m'](value1)) # 1
-# print(gg['m'](value2)) # 0
-# print(gg['s']("01e1")) # 481
-# print(gg['b']) # 1678262402/
+print(gg['m'](value1)) # 1
+print(gg['m'](value2)) # 0
+print(gg['s']("01e1")) # 481
+print(gg['b']) # 1678262402/
